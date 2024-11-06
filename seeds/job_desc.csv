@@ -1,0 +1,20 @@
+JOB_ID,JOB_TITLE
+AD_PRES,President
+AD_VP,Administration Vice President
+FI_MGR,Finance Manager
+FI_ACCOUNT,Accountant
+AC_MGR,Accounting Manager
+AC_ACCOUNT,Public Accountant
+SA_MAN,Sales Manager
+SA_REP,Sales Representative
+PU_CLERK,Purchasing Clerk
+ST_MAN,Stock Manager
+ST_CLERK,Stock Clerk
+SH_CLERK,Shipping Clerk
+IT_PROG,Programmer
+MK_MAN,Marketing Manager
+HR_REP,Human Resources Representative
+AD_ASST,Administration Assistant
+PU_MAN,Purchasing Manager
+PR_REP,Public Relations Representative
+MK_REP,Marketing Representative
