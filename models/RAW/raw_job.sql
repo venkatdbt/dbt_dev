@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_TEST.DBT_SCHEMA.JOBS 
+select * from {{ source('hr_info','jobs') }} 
