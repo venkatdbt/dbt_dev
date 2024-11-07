@@ -1,0 +1,23 @@
+version: 1.0
+
+models:
+  - name: raw_department
+    columns: 
+     - name: department_name
+       data_tests: 
+         - unique
+         - not_null
+         - accepted_values:
+            values: ["Administration","Marketing","Purchasing","Human Resources","Shipping","IT","Public Relations","Sales","Finance","Accounting","Shareholder Services","Benefits","Construction","Contracting","IT Support","NOC","Government Sales","Recruiting","Treasury","Control And Credit","Corporate Tax","Manufacturing","Operations","Retail Sales","Executive","IT Helpdesk","Payroll"]
+
+     - name: location_id
+       data_tests:
+         - unique
+         - not_null
+  - name: raw_employee
+    columns:
+     - name: department_id
+       data_tests:
+        - relationships:
+           to: ref('raw_department')
+           field: department_id
